@@ -1,13 +1,19 @@
 
 ## Сборка
 
-```shell
-./gradlew deploy
+Для сборки на Windows:
+
+```Cmd
+gradlew deploy
 ```
 
-Для сборки одного подпроекта использовать:
+
+Для сборки на Linux:
 ```shell
 ./gradlew [subproject name]:cjar
+```
+```shell
+./gradlew deploy
 ```
 
 По окончании сборки все выходные файлы окажутся в директории artifacts, а также в местах для копирования.
