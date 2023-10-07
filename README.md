@@ -10,9 +10,6 @@ gradlew deploy
 
 Для сборки на Linux:
 ```shell
-./gradlew [subproject name]:cjar
-```
-```shell
 ./gradlew deploy
 ```
 
